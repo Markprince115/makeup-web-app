@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: url('../img/background.jpg')no-repeat;
+    background-size: cover;
+}
+.header{
+    border-bottom: 1px solid #fff;
+}
+.header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Section Makeup*/
+#makeup{
+    background-color: rgba(10, 3, 77, 0.4);
+    height: 50vh;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+#makeup .container{
+    padding-top: 27vh;
+}
+#makeup .container h3{
+    color: #fff;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+#makeup:hover{
+    background: none;
+    color: black;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+#makeup a{
+    text-decoration: none;
+    color: #fff;
+}
+#makeup a:hover{
+    color: #000;
+}
+
+
+/* Skin Section */
+#skin{
+    background-color: rgba(10, 3, 77, 0.4);
+    height: 50vh;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+#skin .container{
+    padding-top: 27vh;
+}
+#skin .container h3{
+    color: #fff;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+#skin:hover{
+    background: none;
+    color: black;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+.arrow{
+    animation: fadeBounce 3s infinite;
+}
+@keyframes fadeBounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        opacity: 0;
+        transform: translateY(-20px)
+    }
+    40%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+

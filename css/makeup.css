@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Make-up nav page */
+#top-header a{
+    text-decoration: none;
+    color: #000;
+}
+#nav{
+    background-color: #000;
+}
+#nav .nav-link li{
+    padding: 7px 15px 10px 15px;
+    cursor: pointer;
+    transition: all 05s ease;
+}
+#nav .nav-link li:hover{
+    border-bottom: 2px solid rgb(56, 54, 54);
+    transition: all ease;
+}
+#nav .icons{
+    font-size: 30px;
+    cursor: pointer;
+}
+#carousel img{
+    width: 100%;
+    height: auto;
+}
+.carousel-item #text{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20vh;
+}
+.carousel-item #text h2{
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5vh;
+}
+.carousel-item p{
+    margin-left: 5vh;
+    text-align: left;
+}
+.carousel-item h2 h3{
+    margin-left: 5vh;
+    font-size: 30px;
+}
+.carousel-item .btn{
+    color: #fff;
+    margin-left: 5vh;
+    border: none;
+    margin-bottom: 4vh;
+    padding: 2vh 5vh  2vh;
+    background-color: #000;
+}
+/* New Arrivals */
+#new-arrivals h2{
+    font-family: 'Raleway', sans-serif;
+}
